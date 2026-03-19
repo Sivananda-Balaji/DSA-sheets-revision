@@ -1,18 +1,15 @@
 //Pattern 1
 
 const Pattern1 = (num) => {
-  let answer = "";
   for (let i = 0; i < num; i++) {
     let str = "";
     for (let j = 0; j < num; j++) {
       str += "*";
     }
-    answer += `${str}\n`;
+    console.log(str);
   }
-  return answer;
 };
 
 const n = 4;
 
-const res = Pattern1(n);
-console.log(res);
+Pattern1(n);
